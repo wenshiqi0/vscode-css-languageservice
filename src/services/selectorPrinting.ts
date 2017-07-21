@@ -5,7 +5,7 @@
 'use strict';
 
 import * as nodes from '../parser/cssNodes';
-import {MarkedString} from 'vscode-languageserver-types';
+import {MarkedString} from 'vscode-languageserver-types-commonjs';
 
 export class Element {
 

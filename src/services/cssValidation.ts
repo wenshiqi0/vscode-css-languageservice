@@ -5,7 +5,7 @@
 'use strict';
 
 import * as nodes from '../parser/cssNodes';
-import {TextDocument, Range, Diagnostic, DiagnosticSeverity} from 'vscode-languageserver-types';
+import {TextDocument, Range, Diagnostic, DiagnosticSeverity} from 'vscode-languageserver-types-commonjs';
 import {ILintConfigurationSettings, sanitize} from './lintRules';
 import {LintVisitor} from './lint';
 import {LanguageSettings} from '../cssLanguageService';

@@ -9,7 +9,7 @@ import * as assert from 'assert';
 import * as cssLanguageService from '../../cssLanguageService';
 import {LESSCompletion} from '../../services/lessCompletion';
 import * as nodes from '../../parser/cssNodes';
-import {TextDocument, Position} from 'vscode-languageserver-types';
+import {TextDocument, Position} from 'vscode-languageserver-types-commonjs';
 import {assertCompletion, ItemDescription} from '../css/completion.test';
 
 function asPromise<T>(result:T) : Promise<T> {

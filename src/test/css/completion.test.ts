@@ -7,7 +7,7 @@
 import * as assert from 'assert';
 import * as cssLanguageService from '../../cssLanguageService';
 
-import {CompletionList, TextDocument, TextEdit, Position, CompletionItemKind, InsertTextFormat} from 'vscode-languageserver-types';
+import {CompletionList, TextDocument, TextEdit, Position, CompletionItemKind, InsertTextFormat} from 'vscode-languageserver-types-commonjs';
 import {applyEdits} from '../textEditSupport';
 
 export interface ItemDescription {

@@ -6,11 +6,11 @@
 
 import * as nodes from '../parser/cssNodes';
 import {TextDocument, Range, Position, Location, DocumentHighlightKind, DocumentHighlight,
-	SymbolInformation, SymbolKind, WorkspaceEdit, TextEdit, TextDocumentEdit} from 'vscode-languageserver-types';
+	SymbolInformation, SymbolKind, WorkspaceEdit, TextEdit, TextDocumentEdit} from 'vscode-languageserver-types-commonjs';
 import {Symbols} from '../parser/cssSymbolScope';
 import {isColorValue} from '../services/languageFacts';
 
-import * as nls from 'vscode-nls';
+import * as nls from 'vscode-nls-commonjs';
 const localize = nls.loadMessageBundle();
 
 export class CSSNavigation {

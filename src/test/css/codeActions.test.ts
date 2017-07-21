@@ -7,7 +7,7 @@
 import * as assert from 'assert';
 import * as cssLanguageService from '../../cssLanguageService';
 
-import {CompletionList, TextDocument, TextEdit, Position, Range, Command} from 'vscode-languageserver-types';
+import {CompletionList, TextDocument, TextEdit, Position, Range, Command} from 'vscode-languageserver-types-commonjs';
 import {applyEdits} from '../textEditSupport';
 
 function asPromise<T>(result:T) : Promise<T> {

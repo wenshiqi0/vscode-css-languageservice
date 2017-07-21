@@ -9,7 +9,7 @@ import * as nodes from '../../parser/cssNodes';
 import {Parser} from '../../parser/cssParser';
 import {LintVisitor} from '../../services/lint';
 import {Rule, Rules} from '../../services/lintRules';
-import {TextDocument} from 'vscode-languageserver-types';
+import {TextDocument} from 'vscode-languageserver-types-commonjs';
 
 export function assertEntries(node: nodes.Node, rules: nodes.IRule[]): void {
 

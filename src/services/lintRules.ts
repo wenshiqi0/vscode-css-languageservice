@@ -6,7 +6,7 @@
 
 import * as nodes from '../parser/cssNodes';
 
-import * as nls from 'vscode-nls';
+import * as nls from 'vscode-nls-commonjs';
 const localize = nls.loadMessageBundle();
 
 let Warning = 'warning';

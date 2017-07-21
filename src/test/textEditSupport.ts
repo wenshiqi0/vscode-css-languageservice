@@ -4,7 +4,7 @@
  *--------------------------------------------------------------------------------------------*/
 'use strict';
 
-import {TextDocument, TextEdit} from 'vscode-languageserver-types';
+import {TextDocument, TextEdit} from 'vscode-languageserver-types-commonjs';
 import * as assert from 'assert';
 
 export function applyEdits(document: TextDocument, edits: TextEdit[]): string {

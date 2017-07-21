@@ -4,14 +4,8 @@
  *--------------------------------------------------------------------------------------------*/
 // file generated from css-schema.xml using css-exclude_generate_browserjs.js
 
-(function (factory) {
-	if (typeof module === "object" && typeof module.exports === "object") {
-		var v = factory(require, exports); if (v !== undefined) module.exports = v;
-	} else if (typeof define === "function" && define.amd) {
-		define(["require", "exports"], factory);
-	}
-})(function (require, exports) {
-	exports.data = {
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.data = {
 	"css": {
 		"atdirectives": [
 			{
@@ -11181,7 +11175,7 @@
 		]
 	}
 };
-	exports.descriptions = {
+exports.descriptions = {
 	"100": "Thin",
 	"200": "Extra Light (Ultra Light)",
 	"300": "Light",
@@ -11690,4 +11684,3 @@
 	"vertical-lr": "Left-to-right block flow direction. The writing mode is vertical.",
 	"vertical-rl": "Right-to-left block flow direction. The writing mode is vertical."
 };
-});

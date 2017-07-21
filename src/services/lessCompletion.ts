@@ -7,9 +7,9 @@
 import * as languageFacts from './languageFacts';
 import * as nodes from '../parser/cssNodes';
 import { CSSCompletion } from './cssCompletion';
-import { CompletionList, CompletionItemKind, InsertTextFormat, TextEdit, CompletionItem } from 'vscode-languageserver-types';
+import { CompletionList, CompletionItemKind, InsertTextFormat, TextEdit, CompletionItem } from 'vscode-languageserver-types-commonjs';
 
-import * as nls from 'vscode-nls';
+import * as nls from 'vscode-nls-commonjs';
 const localize = nls.loadMessageBundle();
 
 interface IFunctionInfo {

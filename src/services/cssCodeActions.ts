@@ -8,9 +8,9 @@ import * as nodes from '../parser/cssNodes';
 import * as languageFacts from './languageFacts';
 import {difference} from '../utils/strings';
 import {Rules} from '../services/lintRules';
-import {TextDocument, Range, CodeActionContext, Diagnostic, Command, TextEdit} from 'vscode-languageserver-types';
+import {TextDocument, Range, CodeActionContext, Diagnostic, Command, TextEdit} from 'vscode-languageserver-types-commonjs';
 
-import * as nls from 'vscode-nls';
+import * as nls from 'vscode-nls-commonjs';
 const localize = nls.loadMessageBundle();
 
 export class CSSCodeActions {
