@@ -8,7 +8,7 @@ import * as assert from 'assert';
 import * as languageFacts from '../../services/languageFacts';
 import {Parser} from '../../parser/cssParser';
 import * as nodes from '../../parser/cssNodes';
-import {TextDocument} from 'vscode-languageserver-types';
+import {TextDocument} from 'vscode-languageserver-types-commonjs';
 
 export function assertColor(parser: Parser, text: string, selection: string, isColor: boolean): void {
 	let document = TextDocument.create('test://test/test.css', 'css', 0, text);

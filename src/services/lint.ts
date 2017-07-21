@@ -8,7 +8,7 @@ import * as languageFacts from './languageFacts';
 import {Rules, ILintConfigurationSettings, toLevel, Rule} from './lintRules';
 import * as nodes from '../parser/cssNodes';
 
-import * as nls from 'vscode-nls';
+import * as nls from 'vscode-nls-commonjs';
 const localize = nls.loadMessageBundle();
 
 class Element {

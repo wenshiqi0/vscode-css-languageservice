@@ -10,7 +10,7 @@ import * as nodes from '../../parser/cssNodes';
 import {Parser} from '../../parser/cssParser';
 import {CSSNavigation} from '../../services/cssNavigation';
 
-import {TextDocument, DocumentHighlightKind} from 'vscode-languageserver-types';
+import {TextDocument, DocumentHighlightKind} from 'vscode-languageserver-types-commonjs';
 
 function asPromise<T>(result:T) : Promise<T> {
 	return Promise.resolve(result);

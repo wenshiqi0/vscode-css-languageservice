@@ -6,7 +6,7 @@
 
 import * as nodes from '../parser/cssNodes';
 import * as languageFacts from './languageFacts';
-import {TextDocument, Range, Position, Hover, MarkedString} from 'vscode-languageserver-types';
+import {TextDocument, Range, Position, Hover, MarkedString} from 'vscode-languageserver-types-commonjs';
 import {selectorToMarkedString, simpleSelectorToMarkedString} from './selectorPrinting';
 
 export class CSSHover {

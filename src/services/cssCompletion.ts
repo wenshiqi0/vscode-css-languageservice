@@ -9,9 +9,9 @@ import { Symbols, Symbol } from '../parser/cssSymbolScope';
 import * as languageFacts from './languageFacts';
 import * as strings from '../utils/strings';
 import { findFirst } from '../utils/arrays';
-import { TextDocument, Position, CompletionList, CompletionItem, CompletionItemKind, Range, TextEdit, InsertTextFormat } from 'vscode-languageserver-types';
+import { TextDocument, Position, CompletionList, CompletionItem, CompletionItemKind, Range, TextEdit, InsertTextFormat } from 'vscode-languageserver-types-commonjs';
 
-import * as nls from 'vscode-nls';
+import * as nls from 'vscode-nls-commonjs';
 const localize = nls.loadMessageBundle();
 
 const SnippetFormat = InsertTextFormat.Snippet;

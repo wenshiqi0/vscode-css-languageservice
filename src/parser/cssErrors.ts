@@ -6,7 +6,7 @@
 
 import * as nodes from './cssNodes';
 
-import * as nls from 'vscode-nls';
+import * as nls from 'vscode-nls-commonjs';
 const localize = nls.loadMessageBundle();
 
 export class CSSIssueType implements nodes.IRule {

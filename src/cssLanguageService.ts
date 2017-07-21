@@ -5,7 +5,7 @@
 'use strict';
 
 import {TextDocument, Position, CompletionList, Hover, Range, SymbolInformation, Diagnostic,
-	Location, DocumentHighlight, CodeActionContext, Command, WorkspaceEdit} from 'vscode-languageserver-types';
+	Location, DocumentHighlight, CodeActionContext, Command, WorkspaceEdit} from 'vscode-languageserver-types-commonjs';
 
 import {Parser} from './parser/cssParser';
 import {CSSCompletion} from './services/cssCompletion';
